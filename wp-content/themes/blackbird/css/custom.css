@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "KlinicSlab";
+  src: url("KlinicSlabLight.otf");
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("OpenSans-Semibold.ttf");
+}
+
+
+
+@font-face {
+  font-family: "KlinicSlabBook";
+  src: url("KlinicSlabBook.otf");
+}
+
+@font-face {
+  font-family: "GloberThin";
+  src: url("GloberThinFree.otf");
+}
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("OpenSans-Light.ttf");
+}
+
+.feature-content-inner h1 {
+	font-family: KlinicSlabBook;
+}
+
+.feature-content-inner p {
+	font-size: 15px;
+}
+
+#page-title h1 {
+	font-family: KlinicSlab;
+}
+
+
+.footer .widget_inner, .footer h3 {
+	font-family: GloberThin;
+}
+
+button, .subscribeButton{
+    border-radius: none;
+    cursor: pointer;
+    border : none;
+    padding : 10px 20px 10px 20px;
+    margin-top: 20px;
+    background-color: #ecf0f1;
+}
+
+.menu-item {
+  z-index: 333333;
+}
+
+button:hover{
+  background-color: #bdc3c7;
+}
+
+
+
+
+
